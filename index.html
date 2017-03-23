@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My Meme Maker</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container text-center">
+
+            <h1>The Meme Maker</h1>
+        </div>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="tool">
+                        <h2>Create a meme</h2>
+                        <form role="form">
+                            <div class="form-group">
+                                <label>Image URL</label>
+                                <input id="image-url" type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Top text</label>
+                                <input id="top-text" type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Bottom text</label>
+                                <input id="bottom-text" type="text" class="form-control">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="meme thumbnail">
+                        <img src="http://www.theolivebranchblog.com/wp-content/uploads/2013/11/big_ears.jpg">
+                        <h1 class="top-caption">I'm All</h1>
+                        <h1 class="bottom-caption">Ears!</h1>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
